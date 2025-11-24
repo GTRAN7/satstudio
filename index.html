@@ -13,6 +13,7 @@
   <meta property="og:url" content="https://thesat.studio">
   <meta property="og:image" content="img/satstudio%20logo.jpg">
   <meta name="robots" content="index, follow">
+  <meta name="theme-color" content="#0a0f1a">
   <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css">
   <link rel="stylesheet" href="styles/style.css">
   <script src="js/script.js" defer></script>
@@ -22,6 +23,7 @@
   <script defer src="/_vercel/insights/script.js"></script>
 </head>
 <body>
+
 <header>
   <div class="container">
     <nav>
@@ -31,29 +33,36 @@
         <li><a href="#about">About</a></li>
         <li><a href="#pricing">Pricing</a></li>
         <li><a href="#booking">Book a Session</a></li>
-        <li><a href="#about-charity">About the Cause</a></li>
-
+        <li><a href="#about-charity">The Cause</a></li>
       </ul>
+      <button class="menu-toggle" aria-label="Toggle navigation menu">
+        <span></span>
+        <span></span>
+        <span></span>
+      </button>
     </nav>
   </div>
 </header>
 
 <section class="hero">
   <div class="container">
-    <h1>Elevate Your SAT Score</h1>
-    <p style="font-size: 2rem"><strong>Guaranteed <span class="tooltip">100+ point increase!<span class="tooltiptext">100+ point increase or 1450 on your next SAT if you tutor with me for 10+ hours, or 100% of your money back!</span></span></strong></p>
-    <p>Personalized 1-on-1 SAT tutoring to help you achieve your dream score and get into your top-choice college.</p>
-    <a href="#pricing" class="btn">Get Started</a>
+    <h1>Elevate Your<br><em>SAT Score</em></h1>
+    <p class="hero-tagline">
+      Guaranteed <span class="tooltip">100+ point increase<span class="tooltiptext">100+ point increase or 1450 on your next SAT if you tutor with me for 10+ hours, or 100% of your money back!</span></span>
+    </p>
+    <p class="hero-description">Personalized 1-on-1 SAT tutoring to help you achieve your dream score and get into your top-choice college.</p>
+    <a href="#pricing" class="btn btn-primary">Get Started</a>
   </div>
+  <div class="hero-scroll">Scroll</div>
 </section>
 
 <section id="services" class="services">
   <div class="container">
-    <div class="section-title">
+    <div class="section-title animate-on-scroll">
       <h2>Our Services</h2>
-      <p>We offer comprehensive SAT preparation tailored to your specific needs and learning style.</p>
+      <p>Comprehensive SAT preparation tailored to your specific needs and learning style.</p>
     </div>
-    <div class="services-grid">
+    <div class="services-grid stagger-children">
       <div class="service-card">
         <i class="fas fa-chart-line"></i>
         <h3>Score Analysis</h3>
@@ -82,8 +91,7 @@
       <div class="service-card">
         <i class="fas fa-university"></i>
         <h3>Meta-Cognitive Training</h3>
-        <p>Develop awareness of your own thinking patterns to identify and correct the specific error types the SAT
-          exploits.</p>
+        <p>Develop awareness of your own thinking patterns to identify and correct the specific error types the SAT exploits.</p>
       </div>
     </div>
   </div>
@@ -91,38 +99,26 @@
 
 <section id="about" class="about">
   <div class="container">
-    <div class="section-title">
+    <div class="section-title animate-on-scroll">
       <h2>Meet Your Tutor</h2>
     </div>
     <div class="about-content">
-      <div class="about-image">
-        <img src="img/satstudio%20logo.jpg">
+      <div class="about-image animate-on-scroll">
+        <img src="img/satstudio%20logo.jpg" alt="The SAT Studio logo">
       </div>
-      <div class="about-text">
+      <div class="about-text animate-on-scroll">
         <h3>Hi, I'm Eric</h3>
-        <p>As a lifelong competitor in international mathematical Olympiads and mental arithmetic competitions, I’ve
-          mastered the art of performing under pressure—skills that translate directly to SAT success. My 1590 SAT score
-          (99.9th percentile) isn’t just a measure of my content mastery; it’s proof of the battle-tested strategies
-          I’ve developed to outthink
-          standardized tests.
-        <p>What sets me apart is my dual perspective: I’ve not only competed at the highest levels, but I’ve also taken
-          the SAT
-          recently enough to remember every trap, timing challenge, and stressful moment students face today. My
-          approach goes beyond
-          teaching content—I train students to hack the test’s psychology.</p>
-
-        <p><strong>The SAT doesn’t measure intelligence—it measures strategy. Let me show you how to make it work in
-          your
-          favor.</strong></p>
+        <p>As a lifelong competitor in international mathematical Olympiads and mental arithmetic competitions, I've mastered the art of performing under pressure—skills that translate directly to SAT success. My 1590 SAT score (99.9th percentile) isn't just a measure of my content mastery; it's proof of the battle-tested strategies I've developed to outthink standardized tests.</p>
+        <p>What sets me apart is my dual perspective: I've not only competed at the highest levels, but I've also taken the SAT recently enough to remember every trap, timing challenge, and stressful moment students face today. My approach goes beyond teaching content—I train students to hack the test's psychology.</p>
+        <p><strong>The SAT doesn't measure intelligence—it measures strategy. Let me show you how to make it work in your favor.</strong></p>
         <div class="qualifications">
-          <h4>My Qualifications:</h4>
+          <h4>My Qualifications</h4>
           <ul>
             <li>1590 SAT (99.9th percentile)</li>
             <li>Vietnam Super Brain National Team Member (1 of 6)</li>
             <li>UCMAS Mental Arithmetic International Grand Champion</li>
             <li>20k+ subscribers trained via math YouTube channel</li>
-            <li>Gold medalist in dozens of mathematical olympiads (IJMO, SIMOC, SASMO, AMO, AMC, IKMC, FOBISIA, etc.)
-            </li>
+            <li>Gold medalist in dozens of mathematical olympiads (IJMO, SIMOC, SASMO, AMO, AMC, IKMC, FOBISIA, etc.)</li>
             <li>Working with an organization to help expand access to education in Vietnam</li>
           </ul>
         </div>
@@ -133,26 +129,27 @@
 
 <section id="pricing" class="pricing">
   <div class="container">
-    <div class="section-title">
+    <div class="section-title animate-on-scroll">
       <h2>Pricing Plans</h2>
       <p>Flexible options to fit your learning style and schedule.</p>
-      <br>
       <h3><strong>50% of all proceeds go to <a href="#about-charity">Charity</a></strong></h3>
     </div>
-    <div class="pricing-grid">
+    <div class="pricing-grid stagger-children">
       <div class="pricing-card">
-        <h3>In-Person Tutoring (Tampa)</h3>
+        <h3>In-Person Tutoring</h3>
+        <p style="color: var(--text-muted); font-size: 0.85rem; margin-bottom: var(--space-sm);">Tampa Area</p>
         <div class="price">$40<span>/hour</span></div>
         <ul class="pricing-features">
-          <li>Face-to-face sessions in your location of choice</li>
+          <li>Face-to-face sessions at your location</li>
           <li>Flexible scheduling</li>
           <li>Comprehensive diagnostics</li>
           <li>Personalized curriculum</li>
         </ul>
-        <a href="#booking" class="btn">Book Sessions</a>
+        <a href="#booking" class="btn btn-primary" style="width: 100%;">Book Sessions</a>
       </div>
-      <div class="pricing-card">
+      <div class="pricing-card featured">
         <h3>Online Tutoring</h3>
+        <p style="color: var(--text-muted); font-size: 0.85rem; margin-bottom: var(--space-sm);">Anywhere</p>
         <div class="price">$35<span>/hour</span></div>
         <ul class="pricing-features">
           <li>Personalized 1-on-1 video sessions</li>
@@ -160,103 +157,100 @@
           <li>Comprehensive diagnostics</li>
           <li>Personalized curriculum</li>
         </ul>
-        <a href="#booking" class="btn">Book Sessions</a>
+        <a href="#booking" class="btn btn-primary" style="width: 100%;">Book Sessions</a>
       </div>
       <div class="pricing-card">
-        <h3>Online Group Sessions (Coming Soon)</h3>
+        <h3>Online Group Sessions</h3>
+        <p style="color: var(--text-muted); font-size: 0.85rem; margin-bottom: var(--space-sm);">Coming Soon</p>
         <div class="price">$20<span>/hour</span></div>
         <ul class="pricing-features">
           <li>Meeting through Google Meet/Zoom</li>
           <li>Collaborative problem-solving drills</li>
-          <li>Competitive challenges with score tracking</li>
+          <li>Competitive challenges with tracking</li>
           <li>Classes of 5-8 people</li>
         </ul>
-        <a href="#booking" class="btn">Book Sessions</a>
+        <a href="#booking" class="btn btn-secondary" style="width: 100%;">Join Waitlist</a>
       </div>
     </div>
-
-  </div>
-  <p style="text-align: center; margin-top: 30px;">Don't see what you need? <a href="#booking">Contact us</a> for custom
-    packages.</p>
+    <p class="pricing-note">Don't see what you need? <a href="#booking">Contact us</a> for custom packages.</p>
   </div>
 </section>
 
 <section id="booking" class="booking">
   <div class="container">
-    <div class="section-title">
+    <div class="section-title animate-on-scroll">
       <h2>Book Your Session</h2>
       <p>Ready to start your SAT journey? Fill out the form below and we'll get back to you within 24 hours.</p>
     </div>
-    <div class="booking-form">
+    <div class="booking-form animate-on-scroll">
       <form action="https://formspree.io/f/xeoalpzq" method="POST">
         <div class="form-group">
           <label for="name">Full Name</label>
-          <input type="text" id="name" name="name" required>
+          <input type="text" id="name" name="name" placeholder="Your full name" required>
         </div>
         <div class="form-group">
           <label for="email">Email Address</label>
-          <input type="email" id="email" name="email" required>
+          <input type="email" id="email" name="email" placeholder="you@example.com" required>
         </div>
         <div class="form-group">
           <label for="phone">Phone Number</label>
-          <input type="tel" id="phone" name="phone">
+          <input type="tel" id="phone" name="phone" placeholder="(555) 123-4567">
         </div>
         <div class="form-group">
           <label for="current-score">Current SAT Score (if known)</label>
-          <input type="number" id="current-score" name="current-score" min="400" max="1600">
+          <input type="number" id="current-score" name="current-score" min="400" max="1600" placeholder="e.g., 1200">
         </div>
         <div class="form-group">
           <label for="target-score">Target SAT Score</label>
-          <input type="number" id="target-score" name="target-score" min="400" max="1600" required>
+          <input type="number" id="target-score" name="target-score" min="400" max="1600" placeholder="e.g., 1500" required>
         </div>
         <div class="form-group">
           <label for="package">Package Interest</label>
           <select id="package" name="package" required>
             <option value="">Select a package</option>
-            <option value="in-person">In-Person Tutoring (Tampa Area Only) ($40/hour)</option>
+            <option value="in-person">In-Person Tutoring — Tampa ($40/hour)</option>
             <option value="online">Online Tutoring ($35/hour)</option>
-            <option value="group">Online Group Sessions (20/hour)</option>
+            <option value="group">Online Group Sessions ($20/hour)</option>
             <option value="custom">Custom Package</option>
           </select>
         </div>
         <div class="form-group">
           <label for="message">Additional Information</label>
-          <textarea id="message" name="message"></textarea>
+          <textarea id="message" name="message" placeholder="Tell us about your goals, schedule preferences, or any questions you have..."></textarea>
         </div>
-        <button type="submit" class="btn" style="width: 100%;">Submit Request</button>
+        <button type="submit" class="btn btn-primary" style="width: 100%;">Submit Request</button>
       </form>
     </div>
   </div>
 </section>
 
-<section id="about-charity" class="about" style="background-color: white">
+<section id="about-charity" class="about">
   <div class="container">
-    <div class="section-title">
+    <div class="section-title animate-on-scroll">
       <h2>About the Cause</h2>
       <p>Proceeds support educational equity initiatives in Vietnam</p>
     </div>
     <div class="about-content">
-      <div class="gallery-container">
+      <div class="gallery-container animate-on-scroll">
         <div class="gallery">
-          <img src="img/lessonpic.jpeg" class="active">
-          <img src="img/firstpic.jpeg">
-          <img src="img/lessonpic1.jpeg">
-          <img src="img/lessonpic2.jpeg">
-          <img src="img/lessonpic4.jpeg">
-          <img src="img/lessonpic5.jpeg">
-          <img src="img/houseofwisdomflorida.jpeg">
-          <!-- Add more images as needed -->
+          <img src="img/lessonpic.jpeg" class="active" alt="Teaching session">
+          <img src="img/firstpic.jpeg" alt="Educational outreach">
+          <img src="img/lessonpic1.jpeg" alt="Students learning">
+          <img src="img/lessonpic2.jpeg" alt="Classroom environment">
+          <img src="img/lessonpic4.jpeg" alt="Group learning">
+          <img src="img/lessonpic5.jpeg" alt="Educational materials">
+          <img src="img/houseofwisdomflorida.jpeg" alt="House of Wisdom Florida">
         </div>
         <button class="gallery-nav prev" aria-label="Previous image">&#10094;</button>
         <button class="gallery-nav next" aria-label="Next image">&#10095;</button>
         <div class="gallery-dots"></div>
       </div>
-      <div class="about-text">
+      <div class="about-text animate-on-scroll">
         <h3>More Than Tutoring: A Mission</h3>
-        <p> My journey with House of Wisdom began when I witnessed firsthand how many children in Vietnam didn't even have the chance to go to school—an opportunity that many of us take for granted. Since then, I've been actively working with this remarkable organization to help expand access to education across rural and underprivileged areas in Vietnam.</p>
-        <p>Last summer, I taught several online classes to students through <a href="https://ngoinhatritue.org/" target="_blank">House of Wisdom</a>, which deepened my commitment when I saw the challenges these eager learners face daily. Despite their enthusiasm, many centers had severely limited resources, with students crowded around a single small screen just to participate in lessons.</p>
-        <p>House of Wisdom has already established over 350 active centers and built more than 20,000 bookshelves and libraries throughout Vietnam, but there's still so much more to do. I'm dedicating 50% of all proceeds from this SAT tutoring program to continue advancing this cause, helping to provide better resources and improved learning environments for these deserving students.</p>
-        <p>By choosing this tutoring service, you're not just investing in better SAT scores—you're joining me on a mission to bridge the educational divide and empower the next generation through the gift of education.</p>
+        <p>My journey with House of Wisdom began when I witnessed firsthand how many children in Vietnam didn't even have the chance to go to school—an opportunity that many of us take for granted. Since then, I've been actively working with this remarkable organization to help expand access to education across rural and underprivileged areas in Vietnam.</p>
+        <p>Last summer, I taught several online classes to students through <a href="https://ngoinhatritue.org/" target="_blank" rel="noopener">House of Wisdom</a>, which deepened my commitment when I saw the challenges these eager learners face daily. Despite their enthusiasm, many centers had severely limited resources, with students crowded around a single small screen just to participate in lessons.</p>
+        <p>House of Wisdom has already established over 350 active centers and built more than 20,000 bookshelves and libraries throughout Vietnam, but there's still so much more to do. I'm dedicating <strong>50% of all proceeds</strong> from this SAT tutoring program to continue advancing this cause.</p>
+        <p><strong>By choosing this tutoring service, you're not just investing in better SAT scores—you're joining me on a mission to bridge the educational divide.</strong></p>
       </div>
     </div>
   </div>
@@ -269,7 +263,7 @@
         <h3>The SAT Studio</h3>
         <p>Helping students achieve their college dreams through personalized SAT preparation.</p>
         <div class="social-icons">
-          <a href="https://www.instagram.com/thesatstudio"><i class="fab fa-instagram"></i></a>
+          <a href="https://www.instagram.com/thesatstudio" target="_blank" rel="noopener" aria-label="Instagram"><i class="fab fa-instagram"></i></a>
         </div>
       </div>
       <div class="footer-section">
@@ -278,12 +272,11 @@
         <a href="#about">About</a>
         <a href="#pricing">Pricing</a>
         <a href="#booking">Book a Session</a>
-        <a href="#about-charity">About the Cause</a>
-
+        <a href="#about-charity">The Cause</a>
       </div>
       <div class="footer-section">
-        <h3>Contact Us</h3>
-        <p><i class="fas fa-envelope"></i> thesatstudio@gmail.com</p>
+        <h3>Contact</h3>
+        <p><i class="fas fa-envelope" style="color: var(--accent-primary); margin-right: 8px;"></i>thesatstudio@gmail.com</p>
       </div>
     </div>
     <div class="copyright">
@@ -291,5 +284,7 @@
     </div>
   </div>
 </footer>
+
 </body>
 </html>
+
